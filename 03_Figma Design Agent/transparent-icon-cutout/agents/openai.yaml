@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transparent Icon Cutout"
+  short_description: "Detect UI icons, redraw, and export transparent assets"
+  default_prompt: "Use $transparent-icon-cutout to extract reusable transparent icon assets from this UI image."

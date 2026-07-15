@@ -1,0 +1,4 @@
+interface:
+  display_name: "Benefit Layout Selector"
+  short_description: "Select three layout options from aesthetic reference rules."
+  default_prompt: "根据需求利益点，选择最合适的三个排版参考方案。"
