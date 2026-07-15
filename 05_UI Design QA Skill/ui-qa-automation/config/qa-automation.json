@@ -1,0 +1,8 @@
+{
+  "archive": "auto",
+  "stats": "auto",
+  "insights": "auto",
+  "skill_candidates": "review",
+  "update_skills": "manual",
+  "auto_promote_after_confirmed_count": 3
+}

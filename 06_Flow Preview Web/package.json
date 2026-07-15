@@ -1,0 +1,32 @@
+{
+  "name": "flow-preview",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint app components lib next.config.ts tailwind.config.ts --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit --pretty false",
+    "sync:figma": "node scripts/sync-interaction-preview-figma-assets.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "next": "15.5.18",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.5.18",
+    "postcss": "^8.4.49",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}
